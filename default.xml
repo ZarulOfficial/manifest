@@ -578,8 +578,7 @@
 
   <include name="snippets/los.xml" />
   <include name="snippets/pixys.xml" />
-  <!-- Remove unused AOSP repos -->
-  <include name="remove.xml" />
+  
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
