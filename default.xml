@@ -6,12 +6,8 @@
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-9.0.0_r16"
            remote="aosp"
-           sync-j="8" />
+           sync-j="4" />
 
-  <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_msm8953" remote="aosp" revision="pixys" />
-  <project path="device/xiaomi/tissot" name="amarbajpai/device_xiaomi_tissot" remote="aosp" revision="pixys" />
-  <project path="device/xiaomi/msm8953-common" name="amarbajpai/device_xiaomi_msm8953-common" remote="aosp" revision="pixys" />
-  <project path="vendor/xiaomi" name="amarbajpai/vendor_xiaomi" remote="aosp" revision="pixys" />
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
