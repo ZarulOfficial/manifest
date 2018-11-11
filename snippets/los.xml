@@ -40,35 +40,7 @@
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="LineageOS" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="LineageOS" />
 
-  <!-- CodeAurora additions -->
-  <!-- Audio HALS -->
-  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="LineageOS" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-16.0-caf-8916" remote="LineageOS" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-16.0-caf-8952" remote="LineageOS" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-16.0-caf-8960" remote="LineageOS" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-16.0-caf-8974" remote="LineageOS" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-16.0-caf-8994" remote="LineageOS" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-16.0-caf-8996" remote="LineageOS" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-16.0-caf-8998" remote="LineageOS" />
-
-  <!-- Display HALS -->
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="LineageOS" />
-  <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-16.0-caf-8952" remote="LineageOS" />
-  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-16.0-caf-8960" remote="LineageOS" />
-  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-16.0-caf-8974" remote="LineageOS" />
-  <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-16.0-caf-8994" remote="LineageOS" />
-  <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-16.0-caf-8996" remote="LineageOS" />
-  <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-16.0-caf-8998" remote="LineageOS" />
-
-  <!-- Media HALS -->
-  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-16.0-caf-8916" remote="LineageOS" />
-  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-16.0-caf-8952" remote="LineageOS" />
-  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-16.0-caf-8960" remote="LineageOS" />
-  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-16.0-caf-8974" remote="LineageOS" />
-  <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-16.0-caf-8994" remote="LineageOS" />
-  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-16.0-caf-8996" remote="LineageOS" />
-  <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-16.0-caf-8998" remote="LineageOS" />
-
+ 
 
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="LineageOS" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="lineage-16.0-caf" remote="LineageOS" />
